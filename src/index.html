@@ -7,16 +7,23 @@
     <title>API Project V2</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="scss/styles.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">Movie Search</header>
-    
-    <form class="searchBar">
+
+    <div class="searchBar">
+    <form class="searchBarInput">
       <input type="text" placeholder="Search..." name="searchBox">
-      <button type="submit" class="searchButton"></button>
+      <button type="submit" class="searchButton" value="">🔍</button>
     </form>
 
+    <header class="movieDisclaimer">Unable to find specified movie</header>
+    </div>
+    
+    <img src="" alt="Movie Poster Placeholder">
+    
     <section class="movieInfo">
       <p class="movieName">a</p>
       <p class="movieReleaseDate">a</p>
@@ -26,6 +33,6 @@
 
     <section class="movieCast"></section>
     
-    <script src="" async defer></script>
+    <script src="js/index.js" async defer></script>
   </body>
 </html>

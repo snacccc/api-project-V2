@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+body {
+  margin: 1rem;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 3rem;
+  font-family: $fontprimary;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.searchButton {
+  cursor: pointer;
+}
+
+.movieDisclaimer {
+  opacity: 0;
+}
