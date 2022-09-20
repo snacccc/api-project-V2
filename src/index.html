@@ -11,28 +11,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header">Movie Search</header>
+    <header class="header" id="header">Movie Search</header>
 
-    <div class="searchBar">
-    <form class="searchBarInput">
-      <input type="text" placeholder="Search..." name="searchBox">
-      <button type="submit" class="searchButton" value="">🔍</button>
+    <div class="searchBar" id="searchBar">
+    <form class="searchBarInput" id="searchBarInput">
+      <input type="text" placeholder="Search..." name="searchBox" id="searchBox">
+      <button type="submit" class="searchButton" id="searchButton" value="">🔍</button>
     </form>
 
-    <header class="movieDisclaimer">Unable to find specified movie</header>
+    <header class="movieDisclaimer" id="movieDisclaimer">Unable to find specified movie</header>
     </div>
     
-    <img src="" alt="Movie Poster Placeholder">
+    <img class="moviePoster" id="moviePoster" src="" alt="Movie Poster Placeholder">
     
-    <section class="movieInfo">
-      <p class="movieName">a</p>
-      <p class="movieReleaseDate">a</p>
-      <p class="movieRunTime">a</p>
-      <p class="movieDirectors">a</p>
+    <section class="movieInfo" id="movieInfo">
+      <p class="movieName" id="movieName">a</p>
+      <p class="movieReleaseDate" id="movieReleaseDate">a</p>
+      <p class="movieRating" id="movieRating">a</p>
     </section>
-
-    <section class="movieCast"></section>
     
-    <script src="js/index.js" async defer></script>
+    <script src="index.js" async defer></script>
   </body>
 </html>
