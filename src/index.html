@@ -14,7 +14,7 @@
     <header class="header" id="header">Movie Search</header>
 
     <div class="searchBar" id="searchBar">
-    <form class="searchBox" id="searchBox">
+    <form class="searchBox" id="searchBox" onsubmit="getData(); return false">
       <input type="text" placeholder="Search..." name="searchInput" id="searchInput">
       <button type="submit" class="searchBtn" id="searchBtn" value="">🔍</button>
     </form>
