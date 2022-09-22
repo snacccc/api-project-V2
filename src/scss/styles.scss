@@ -18,6 +18,20 @@ body {
   cursor: pointer;
 }
 
-.movieDisclaimer {
+.movieError {
   opacity: 0;
+}
+
+.movieName {
+  font-size: 5rem;
+}
+
+.searchInput {
+  height: 2rem;
+  width: 16rem;
+}
+
+.searchBtn {
+  height: 2.4rem;
+  width: 2.4rem;
 }

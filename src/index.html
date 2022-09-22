@@ -15,21 +15,19 @@
 
     <div class="searchBar" id="searchBar">
     <form class="searchBox" id="searchBox" onsubmit="getData(); return false">
-      <input type="text" placeholder="Search..." name="searchInput" id="searchInput">
+      <input type="text" class="searchInput" placeholder="Search..." name="searchInput" id="searchInput" >
       <button type="submit" class="searchBtn" id="searchBtn" value="">🔍</button>
     </form>
 
-    <header class="movieDisclaimer" id="movieDisclaimer">Unable to find specified movie</header>
+    <header class="movieError" id="movieError"></header>
     </div>
     
-    <img class="moviePoster" id="moviePoster" src="" alt="Movie Poster Placeholder">
-    
     <section class="movieInfo" id="movieInfo">
-      <p class="movieName" id="movieName">a</p>
-      <p class="movieReleaseDate" id="movieReleaseDate">a</p>
-      <p class="movieRating" id="movieRating">a</p>
+      <p class="movieName" id="movieName"></p>
     </section>
-    
+
+     <img class="moviePoster" id="moviePoster" src="" alt="">
+
     <script src="index.js" async defer></script>
   </body>
 </html>
