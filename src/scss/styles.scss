@@ -1,29 +1,30 @@
 @import "./variables.scss";
 
 body {
-  margin: 1rem;
   text-align: center;
   justify-content: space-between;
+  background-color: #464646;
+  margin: 0rem;
+}
+
+.navBar {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  background-color: #292929;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .header {
   font-size: 3rem;
   font-family: $fontprimary;
   font-weight: 500;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
-}
-
-.searchButton {
-  cursor: pointer;
-}
-
-.movieError {
-  opacity: 0;
-}
-
-.movieName {
-  font-size: 5rem;
+  color: #e4e4e4;
+  height: 4rem;
 }
 
 .searchInput {
@@ -34,4 +35,20 @@ body {
 .searchBtn {
   height: 2.4rem;
   width: 2.4rem;
+  cursor: pointer;
+}
+
+.movieError {
+  opacity: 0;
+}
+
+.movieName {
+  font-size: 3rem;
+}
+
+.moviePoster {
+  height: 40rem;
+  width: 30rem;
+  border: 0rem;
+  opacity: 0;
 }

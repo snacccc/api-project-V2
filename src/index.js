@@ -39,6 +39,7 @@ const getInfo = async function (key) {
         console.log(moviePoster);
         movieName.innerHTML = movieTitle;
         moviePoster.src = movieImage;
+        moviePoster.style.opacity = 1;
 
         }
 

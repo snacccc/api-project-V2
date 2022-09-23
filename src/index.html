@@ -11,15 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header" id="header">Movie Search</header>
+    
 
-    <div class="searchBar" id="searchBar">
-    <form class="searchBox" id="searchBox" onsubmit="getData(); return false">
+    <div class="navBar" id="navBar">
+    
+      <header class="header" id="header">Movie Search</header>
+    
+      <div>
+      <form class="searchBox" id="searchBox" onsubmit="getData(); return false">
       <input type="text" class="searchInput" placeholder="Search..." name="searchInput" id="searchInput" >
       <button type="submit" class="searchBtn" id="searchBtn" value="">🔍</button>
-    </form>
+      </form>
 
-    <header class="movieError" id="movieError"></header>
+      <header class="movieError" id="movieError"></header>
+      </div>
     </div>
     
     <section class="movieInfo" id="movieInfo">
