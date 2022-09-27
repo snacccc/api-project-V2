@@ -17,7 +17,7 @@
     
       <header class="header" id="header">Movie Search</header>
     
-      <div>
+      <div class="searchArea" id="searchArea">
       <form class="searchBox" id="searchBox" onsubmit="getData(); return false">
       <input type="text" class="searchInput" placeholder="Search..." name="searchInput" id="searchInput" >
       <button type="submit" class="searchBtn" id="searchBtn" value="">🔍</button>
@@ -29,9 +29,10 @@
     
     <section class="movieInfo" id="movieInfo">
       <p class="movieName" id="movieName"></p>
+      <img class="moviePoster" id="moviePoster" src="" alt="">
     </section>
 
-     <img class="moviePoster" id="moviePoster" src="" alt="">
+     
 
     <script src="index.js" async defer></script>
   </body>
