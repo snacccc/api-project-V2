@@ -45,6 +45,7 @@ const getInfo = async function (key) {
 
     } catch (error) {
         console.log(error);
+        console.log(data.errorMessage);
         movieError.innerText = "Something went wrong";
         movieError.style.opacity = 1;
         return;
